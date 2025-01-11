@@ -14,3 +14,4 @@ def send_email(to_address, subject, message):
         server.sendmail(from_address, to_address, msg.as_string())
 
 send_email('recipient@yahoo.com', 'Test Subject', 'This is a test email.')
+
