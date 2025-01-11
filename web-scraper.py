@@ -15,4 +15,5 @@ for item in soup.find_all('div', class_='item'):
 with open('data.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(['Title', 'Price'])
-    writer.writerows(data)
+    writer.writerows(data) 
+    
