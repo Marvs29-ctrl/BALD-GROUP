@@ -26,3 +26,4 @@ def generate_report():
 log_expense(50, 'Groceries', 'Bought fruits and vegetables')  # Log a $50 grocery expense
 log_expense(20, 'Transport', 'Bus fare')  # Log a $20 transport expense
 generate_report()  # Generate and display the total
+
