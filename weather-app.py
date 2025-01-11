@@ -16,3 +16,4 @@ def get_weather(city):
 
 # Example usage
 get_weather('Pangasinan')
+
