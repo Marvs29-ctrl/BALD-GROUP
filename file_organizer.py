@@ -23,3 +23,4 @@ for filename in os.listdir(directory):
             if file_extension in extensions:
                 shutil.move(file_path, os.path.join(directory, folder, filename))
                 break
+
